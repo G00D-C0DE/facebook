@@ -1,0 +1,346 @@
+
+body{
+  background-color: #f0f2f5;
+  font-family : Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+ 
+}
+:focus {
+  border: none;
+  outline: none;
+}
+img{
+  width: 303px;
+  height: 100px;
+ 
+}
+
+.div1{   /*كونتينر العنوان و الفقرة */
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px 8px 0px 0px ;
+  width: 432px;
+  height: 76px;
+  margin: 0px auto 0px auto ;
+  padding: 10px 16px 10px 16px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 0px #CCD0D5;
+}
+
+.div2{    /*عنوان واحد*/
+font-size: 26px;
+font-weight: 600;
+line-height: 32px;
+color: rgb(28, 30, 33);
+
+}
+
+.div3{  /* الفقرة*/
+  font-size: 16px;
+  color: #606770;
+  width: 400px;
+  height: 24;
+  line-height: 24px;
+}
+
+       /***************/
+
+          /*الكونتينر الاساسي لحقول الادخال*/ 
+
+.div4{     
+  background: rgb(255, 255, 255);
+  width: 432px;
+  height: 534px;
+  box-sizing: border-box;
+  margin: 0px auto 0px auto ;
+  border-top: 1px #dadde1 solid ;
+  padding: 16px;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 3px 5px 0px #CCD0D5;
+  position: relative;
+
+}
+                   /*بداية حقول الادخال*/
+ .user1{
+   width: 167px;
+   height: 18px;
+   border-radius: 5px;
+   border: 1px solid #CCD0D5;
+   padding: 11px;
+   text-align: right;
+   margin: 0px 0px 0px 4px ;
+   font-size: 16px;
+ }
+
+ .user2{
+  width: 167px;
+  height: 18px;
+  border-radius: 5px;
+  border: 1px solid #CCD0D5;
+  padding: 11px;
+  text-align: right;
+  margin: 0px 4px 0px 0px ;
+  font-size: 16px;
+}
+.email,.pass{
+  width: 372px;
+  height: 18px;
+  border-radius: 5px;
+  border: 1px solid #CCD0D5;
+  padding: 11px;
+  text-align: right;
+  margin: 10px 0px 0px 0px ;
+  font-size: 16px;
+  color: #CCD0D5;
+}
+/*تاريخ الميلاد ?*/         
+.div5{
+  text-align: right;
+  padding-right:3px ;
+  margin: 12px 0px 0px 0px ;
+}
+.p1 {
+  border-radius: 50%;
+  border: none;
+  background-color: #606770;
+  color: white;
+  font: 12px bolder;
+  width: 11px;
+  height: 11px;
+  text-align: center;
+  padding: 1px;
+  display: inline-block;
+
+}
+.p2{
+  font-size: 13px;
+  line-height: 20px;
+  color: #606770;
+}
+       /*اليوم    الشهر     السنه*/
+
+ .div6 {
+   width: 394px;
+   margin: 4px 0px 0px 3px ;
+
+ }
+ .opt1,.opt2,.opt3 {
+   width: 120px;
+   height: 37px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #CCD0D5;
+  direction: rtl;
+ font-size: 16px;
+ } 
+
+ .opt2 {
+   margin: 0px 12px;
+          
+ }
+        /***********************/
+          /* ذكر   ام انثى*/
+ .div8{
+   width: 395px;
+   margin: auto;
+ }         
+
+ .div7 {
+   padding-right: 2px;
+   text-align: right;
+   margin-top: 12px;
+ }
+ .se {
+  font-size: 13px;
+  line-height: 20px;
+  color: #606770;
+ }
+ .qu {
+   background-color: #606770;
+   border-radius: 50%;
+   border: none;
+   width: 12px;
+   height: 12px;
+   color: rgb(255, 255, 255);
+   font: 12px bolder;
+   padding: 1px;
+   text-align: center;
+   display: inline-block;
+ }
+  .rad1,.rad2,.rad3 {
+    
+    width: 113px;
+    border:1px solid #CCD0D5;
+    border-radius: 5px;
+    height:36px ;
+    padding: 8px 0px ;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  .rad3{
+    width: 140px;
+  }
+  .rad2{
+    margin: 0px 10px ;
+  }
+
+        /*مخــصص*/
+ 
+  .inp1,.lab1 {
+    width: 48%;
+    display: inline-block;
+
+  }
+
+  .inp1{
+    text-align: left;
+
+  }
+
+  .lab{
+    text-align: right;
+
+  }
+
+         /**ذكـــر***/
+
+  .inp2,.lab2{
+         width: 48%;
+         display: inline-block;
+         
+  } 
+
+  .inp2{
+    text-align: left;
+
+  }
+
+  .lab{
+    text-align: right;
+
+  }
+      
+        /**انثى**/
+.inp3,.lab3{
+  width: 48%;
+  display: inline-block;
+
+} 
+
+.inp{
+  text-align: left;
+
+}
+
+.lab{
+  text-align: right;
+}
+
+            /***************/
+          /***الفقرة النصية الاولى بالاسفل***/
+
+.pbottom { 
+  color: #777777;
+  font-size: 12px;
+  margin: 12px 0px ;
+  width: 399px;
+  height: 32px;
+  text-align: right;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #395999; ;
+}
+a:hover {
+  text-decoration: underline;
+}
+          /**************************/
+       /**الفقرة النصية الثانية بالاسفل**/
+     
+ .pbottom2 {
+     
+     color: #777777;
+     font-size: 12px;
+     margin: 12px 0px;
+     width: 399px;
+     text-align: right;
+ }
+ .sub {
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #00a300;
+    padding: 0px 32px;
+    margin: 10px 0px ;
+    box-sizing: border-box;
+    width:236px ;
+    height: 36px;
+    border: none;
+    line-height: 24px;
+    cursor: pointer;
+
+ }
+ .urlbo {
+      display: block;
+      font-size: 18px;
+      color: #1877f2;
+      margin: 15px 0px 0px 0px ;
+
+ }
+
+.contain {
+     width: 50px;
+     height: 20px;
+     background: red;
+     position: relative;
+     margin: auto;
+
+}
+
+
+ .mohamed {
+  display: none;
+  width: 332px;
+  height: 50px;
+  border: 1px solid #606770;
+  padding: 0px 10px 10px 13px;
+  font-size: 14px;
+  position: absolute;
+  top: -64px;
+  right: 7px;
+  z-index: 1;
+  color: black;
+}
+
+
+.ahmed {
+  display: none;
+  width: 332px;
+  height: 50px;
+  border: 1px solid #606770;
+  padding: 0px 10px 10px 13px;
+  font-size: 14px;
+  position: absolute;
+  top: -64px;
+  right: 7px;
+  z-index: 1;
+  color: black;
+}
+
+ .contain:hover .mohamed {
+   display: block;
+ }
+
+
+
+
+
+
+
+
